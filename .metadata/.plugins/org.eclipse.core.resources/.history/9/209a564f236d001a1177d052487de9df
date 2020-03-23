@@ -1,0 +1,11 @@
+
+public class sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       
+    	   int a = 24;
+    	   int b = 26;
+    	   System.out.println("The sum is =" + Integer.sum(a, b));
+	}      
+}

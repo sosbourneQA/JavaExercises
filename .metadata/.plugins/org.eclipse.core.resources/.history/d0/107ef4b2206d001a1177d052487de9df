@@ -1,0 +1,22 @@
+
+public class beginner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	  String hi = "hello world";
+        System.out.println(hi);
+        
+      public void random("comment") {
+    	String comment = "this is a comment";
+      }
+      
+      public String returnHello() {
+  		return "HelloWorld!";
+  	}
+  	
+  	public void printHello(String message) {
+  		System.out.println(message);
+  		
+  	}
+  	}
+}
