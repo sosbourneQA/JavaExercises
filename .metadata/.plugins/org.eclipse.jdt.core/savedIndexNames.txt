@@ -2,7 +2,6 @@ INDEX VERSION 1.131+C:\Users\44788\eclipse-workspace\.metadata\.plugins\org.ecli
 82097862.index
 1701053066.index
 3216450761.index
-1896765531.index
 610890123.index
 3512667234.index
 526797584.index
