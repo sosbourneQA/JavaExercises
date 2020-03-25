@@ -17,13 +17,17 @@ public class ExamCalculator {
 //	} 
 		if (bio / 150 * 100 < 60 && chem / 150 * 100 < 60 && phys / 150 * 100 < 60) {
 			System.out.println("you fail all three subjects");
+			// checks if they have failed all 3
 		} else if (bio / 150 * 100 > 60 && chem / 150 * 100 > 60 && phys / 150 * 100 > 60) {
 			System.out.println("you passed all three subjects!");
+			// checks if they passed all 3
 		} else if ((bio / 150 * 100 < 60 && chem / 150 * 100 < 60) || (bio / 150 * 100 < 60 && phys / 150 * 100 < 60)
 				|| (phys / 150 * 100 < 60 && chem / 150 * 100 < 60)) {
 			System.out.println("you failed two subjects!");
+			// checks if they failed 2
 		} else {
 			System.out.println("you failed one subject!");
+			// default is that they failed 1
 		}
 		;
 
