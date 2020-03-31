@@ -10,7 +10,7 @@ public class Runnner {
 		Tax_Processor clac = new Tax_Processor();
 
 		System.out.println(clac.salaryTaxPercentage(salary) + "% tax on your income");
-
+		System.out.println("£" + clac.salaryTaxAmount(salary) + " is the amount you will be taxed");
 	}
 
 }
